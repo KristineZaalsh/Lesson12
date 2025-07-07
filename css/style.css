@@ -1,0 +1,172 @@
+.header-container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    
+    
+   
+ 
+}
+.icon{
+    margin-left: 92px;
+}
+.travel-day {
+    color: #FA793C;
+    font-size: 18px;
+     font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: 14px;
+}
+.ul-nav {
+    display: flex;
+    align-items: center;
+    margin-left: 850px;
+    display: flex;
+    column-gap: 8px;
+}
+.list-nav {
+    color: #000000;
+     font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+
+}
+.user-circle {
+    max-width: 24px;
+    max-height: 24px;
+    margin-left: 40px;
+
+}
+
+.section-1 {
+    max-width: 1440px;
+    width: 100%;
+    height: 550px;
+    max-height: 100%;
+    margin: 0 auto;
+    background-image: url(../images/background-img.png);
+    background-repeat: no-repeat ;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    
+   
+   
+
+}
+
+.travel-news {
+    color: #FFFFFF;
+    font-size: 50px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    position: absolute;
+   
+ 
+  
+    margin-left: 144px;
+    margin-bottom: 21px;
+    margin-bottom: 300px;
+    margin-top: 99px;
+   
+    
+}
+
+.lorem-text{
+    max-width: 532px;
+    height: 120px;
+    font-size: 16px;
+    line-height: 100%;
+    color: #FFFFFF;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+   
+    position: absolute;
+    margin-left: 162px;
+    margin-top: 23px;
+
+
+}
+.right-box {
+    max-width: 440px;
+    width: 100%;
+    height: 404px;
+  
+    position: absolute;
+    
+    background-color: #FFFFFF;
+    margin-left: 871.5px;
+   
+   
+   
+    
+    
+
+}
+.more-news {
+    font-size: 30px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    margin-top: 27px;
+    margin-left: 38.5px;
+    
+}
+.travel-news2{
+    color: #FA793C;
+    font-size: 20px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-top: 28px;
+    margin-bottom: 10px;
+    margin-left: 38.5px ;
+
+}
+.travel-news3{
+    color: #FA793C;
+    font-size: 20px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-left: 38.5px;
+    margin-top: 10px;
+    
+
+}
+.lorem-text2 {
+    font-size: 16px;
+    color: #000000;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 38.5px;
+    max-width: 360px;
+    max-height: 96px;
+   
+    
+    
+
+
+}
+.lorem-text3 {
+    font-size: 16px;
+    color: #000000;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 38.5px;
+    margin-top: 10px;
+    max-width: 360px;
+    max-height: 96px;
+     
+
+
+}
