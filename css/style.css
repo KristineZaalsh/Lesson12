@@ -1,172 +1,389 @@
 .header-container {
-    max-width: 1440px;
-    width: 100%;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    
-    
-   
- 
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
 }
-.icon{
-    margin-left: 92px;
+.burger-bar {
+  width: 32px;
+  height: 32px;
+
+  position: relative;
+  display: none;
+}
+.line {
+  width: 65%;
+  height: 2px;
+  background-color: #000000;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.line1 {
+  top: 30%;
+}
+.line3 {
+  top: 72%;
+}
+.icon {
+  margin-left: 92px;
 }
 .travel-day {
-    color: #FA793C;
-    font-size: 18px;
-     font-family: "Kanit", sans-serif;
+  color: #fa793c;
+  font-size: 18px;
+  font-family: "Kanit", sans-serif;
   font-weight: 400;
   font-style: normal;
   margin-left: 14px;
 }
 .ul-nav {
-    display: flex;
-    align-items: center;
-    margin-left: 850px;
-    display: flex;
-    column-gap: 8px;
+  display: flex;
+  align-items: center;
+  margin-left: 850px;
+  display: flex;
+  column-gap: 8px;
+  width: 100%;
 }
 .list-nav {
-    color: #000000;
-     font-family: "Kanit", sans-serif;
+  color: #000000;
+  font-family: "Kanit", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
-
 }
 .user-circle {
-    max-width: 24px;
-    max-height: 24px;
-    margin-left: 40px;
-
+  max-width: 24px;
+  max-height: 24px;
+  margin-left: 40px;
 }
 
 .section-1 {
-    max-width: 1440px;
-    width: 100%;
-    height: 550px;
-    max-height: 100%;
-    margin: 0 auto;
-    background-image: url(../images/background-img.png);
-    background-repeat: no-repeat ;
-    background-size: cover;
-    position: relative;
-    display: flex;
-    align-items: center;
-    
-   
-   
-
+  max-width: 1440px;
+  width: 100%;
+  height: 550px;
+  max-height: 100%;
+  margin: 0 auto;
+  background-image: url(../images/background-img.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  align-items: center;
 }
 
 .travel-news {
-    color: #FFFFFF;
-    font-size: 50px;
-    font-family: "Kanit", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    position: absolute;
-   
- 
-  
-    margin-left: 144px;
-    margin-bottom: 21px;
-    margin-bottom: 300px;
-    margin-top: 99px;
-   
-    
+  color: #ffffff;
+  font-size: 50px;
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  position: absolute;
+
+  margin-left: 144px;
+  margin-bottom: 21px;
+  margin-bottom: 300px;
+  margin-top: 99px;
 }
 
-.lorem-text{
-    max-width: 532px;
-    height: 120px;
-    font-size: 16px;
-    line-height: 100%;
-    color: #FFFFFF;
-    font-family: "Kanit", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-   
-    position: absolute;
-    margin-left: 162px;
-    margin-top: 23px;
+.lorem-text {
+  width: 532px;
+  height: 120px;
+  font-size: 16px;
+  line-height: 100%;
+  color: #ffffff;
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 
-
+  position: absolute;
+  margin-left: 162px;
+  margin-top: 23px;
 }
 .right-box {
-    max-width: 440px;
-    width: 100%;
-    height: 404px;
-  
-    position: absolute;
-    
-    background-color: #FFFFFF;
-    margin-left: 871.5px;
-   
-   
-   
-    
-    
+  max-width: 440px;
+  width: 100%;
+  height: 380px;
 
+  position: absolute;
+
+  background-color: #ffffff;
+  margin-left: 871.5px;
 }
 .more-news {
-    font-size: 30px;
-    font-family: "Kanit", sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    margin-top: 27px;
-    margin-left: 38.5px;
-    
+  font-size: 30px;
+  font-family: "Kanit", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  margin-top: 27px;
+  margin-left: 38.5px;
 }
-.travel-news2{
-    color: #FA793C;
-    font-size: 20px;
-    font-family: "Kanit", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    margin-top: 28px;
-    margin-bottom: 10px;
-    margin-left: 38.5px ;
-
+.travel-news2 {
+  color: #fa793c;
+  font-size: 20px;
+  font-family: "Kanit", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  margin-top: 28px;
+  margin-bottom: 10px;
+  margin-left: 38.5px;
 }
-.travel-news3{
-    color: #FA793C;
-    font-size: 20px;
-    font-family: "Kanit", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    margin-left: 38.5px;
-    margin-top: 10px;
-    
-
+.travel-news3 {
+  color: #fa793c;
+  font-size: 20px;
+  font-family: "Kanit", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  margin-left: 38.5px;
+  margin-top: 10px;
 }
 .lorem-text2 {
-    font-size: 16px;
-    color: #000000;
-    font-family: "Kanit", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    margin-left: 38.5px;
-    max-width: 360px;
-    max-height: 96px;
-   
-    
-    
-
-
+  font-size: 16px;
+  color: #000000;
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: 38.5px;
+  max-width: 360px;
+  max-height: 96px;
 }
 .lorem-text3 {
-    font-size: 16px;
-    color: #000000;
-    font-family: "Kanit", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    margin-left: 38.5px;
-    margin-top: 10px;
-    max-width: 360px;
-    max-height: 96px;
-     
+  font-size: 16px;
+  color: #000000;
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: 38.5px;
+  margin-top: 10px;
+  max-width: 360px;
+  max-height: 96px;
+}
+.section2 {
+  max-width: 1440px;
+  width: 90%;
+  margin: 0 auto;
+}
+.inside-dv1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 81.8%;
+  justify-content: space-between;
+  margin: 0 auto;
+}
 
+.dv {
+  border: 1px solid darkgray;
+}
+.discovery {
+  font-family: "Kanit", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 30px;
+  color: #000000;
+  line-height: 100%;
 
+  margin-top: 33px;
+  margin-left: 130px;
+  margin-bottom: 32px;
+}
+
+.text-dv {
+  max-width: 339px;
+  width: 90%;
+}
+.lorem-descr {
+  font-size: 24px;
+  color: #000000;
+  font-family: "Kanit", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.lorem-text4 {
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  color: #000000;
+}
+.image {
+  max-width: 380px;
+  width: 100%;
+}
+
+.dv {
+  max-width: 380px;
+  width: 100%;
+}
+.section-3 {
+  max-width: 1179px;
+  width: 90%;
+  margin: 0 auto;
+
+  display: flex;
+  column-gap: 20px;
+  margin-bottom: 71px;
+}
+.photograph {
+  font-family: "Kanit", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 30px;
+  color: #000000;
+  line-height: 100%;
+  max-width: 192px;
+  margin-top: 59px;
+}
+.left-block {
+  max-width: 779px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 86px;
+  margin-top: 131px;
+  position: relative;
+}
+.row1,
+.row2 {
+  width: 100%;
+  height: 400px;
+  position: relative;
+}
+
+.right-block {
+  width: 380px;
+  display: flex;
+  row-gap: 32px;
+  margin-top: 131px;
+}
+.box {
+  width: 380px;
+  row-gap: 32px;
+
+  border: 1px solid black;
+}
+.images3 {
+  width: 100%;
+  max-width: 380px;
+}
+
+.footer {
+  background-color: #000000;
+  max-width: 1440px;
+  width: 100%;
+
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-icon-text {
+  color: #ffffff;
+
+  max-width: 123px;
+  width: 100%;
+}
+
+.fa-clock {
+  width: 24px;
+  width: 24px;
+}
+.day-text {
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.lorem-descr {
+  font-family: "Kanit", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 24px;
+}
+.lorem-text4 {
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+}
+@media (max-width: 834px) {
+  .section-3 {
+    flex-direction: column;
+  }
+  .box3 {
+    display: none;
+  }
+  .left-block {
+    width: 100%;
+  }
+  .box-3 {
+    display: none;
+  }
+  .right-block {
+    width: 100%;
+    flex-direction: row;
+  }
+  .dv-3 {
+    display: none;
+  }
+  .inside-dv1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    column-gap: 19px;
+  }
+  .lorem-text4 {
+    font-size: 14px;
+  }
+  .lorem-text {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .section-1 {
+    background-size: cover;
+    width: 100%;
+  }
+
+  .right-box {
+    display: none;
+  }
+  .box {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+@media (max-width: 375px) {
+  .box-2 {
+    display: none;
+  }
+  .section-3 {
+    width: 100%;
+  }
+  .right-block {
+    width: 90%;
+    margin: 0 auto;
+    flex-direction: column;
+  }
+  .left-block {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .section2 {
+    flex-direction: row;
+  }
+  .inside-dv1 {
+    flex-direction: column;
+  }
+  .lorem-text {
+    width: 100%;
+  }
+  .burger-bar {
+    display: block;
+  }
+  .ul-nav {
+    display: none;
+  }
 }
