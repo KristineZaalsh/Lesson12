@@ -320,10 +320,7 @@
   .box-3 {
     display: none;
   }
-  .right-block {
-    width: 100%;
-    flex-direction: row;
-  }
+  
   .dv-3 {
     display: none;
   }
@@ -344,6 +341,7 @@
   .section-1 {
     background-size: cover;
     width: 100%;
+    background-image: url(../images/background-image-834px.png);
   }
 
   .right-box {
@@ -353,6 +351,34 @@
     display: flex;
     flex-direction: row;
   }
+  .header-container {
+    padding: 16px;
+    justify-content: space-between;
+  }
+  .icon {
+    margin-left: 0;
+  }
+  .travel-day {
+    font-size: 16px;
+    margin-left: 8px;
+    
+  }
+  .user-circke {
+    margin-left: auto;
+ 
+ .discovery {
+    font-size: 30px;
+    margin-left: 36px;
+   
+
+ }
+ .right-block {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    
+ }
 }
 
 @media (max-width: 375px) {
@@ -386,4 +412,45 @@
   .ul-nav {
     display: none;
   }
+  .header-container{
+    flex-wrap: wrap;
+    gap: 10px;
+    
+  }
+  .icon {
+    width: 24px;
+  }
+  .user-circle {
+width: 20px;
+height: 20px;
+  }
+  .section-1 {
+    flex-direction: column;
+    background-image: url(../images/background-image-375px.png);
+    text-align: center;
+    background-position: center;
+    padding: 24px 16px;
+  }
+  .travel-news {
+    font-size: 40px;
+    margin-top: 11px;
+    margin: 0 auto;
+  }
+ .right-box {
+    display: none;
+ }
+ .lorem-text {
+    width: 100%;
+    margin:  0 auto;
+    font-size: 14px;
+    line-height: 140%;
+    margin-top: 95px;
+ }
+ .discovery {
+    font-size: 24px;
+    margin: 20px 0px;
+    text-align: center;
+ }
+
+   
 }
