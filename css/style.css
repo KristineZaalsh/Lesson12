@@ -5,6 +5,12 @@
   display: flex;
   align-items: center;
 }
+.header {
+  max-width:1440px ;
+  width: 100%;
+  margin: 0 auto;
+
+}
 .burger-bar {
   width: 32px;
   height: 32px;
@@ -38,6 +44,7 @@
   font-weight: 400;
   font-style: normal;
   margin-left: 14px;
+  
 }
 .ul-nav {
   display: flex;
@@ -46,6 +53,7 @@
   display: flex;
   column-gap: 8px;
   width: 100%;
+  max-width: 252px;
 }
 .list-nav {
   color: #000000;
@@ -59,9 +67,15 @@
   max-height: 24px;
   margin-left: 40px;
 }
-
-.section-1 {
+.section-first {
+  background-color: aqua;
   max-width: 1440px;
+  height: auto;
+ 
+  margin: 0 auto;
+}
+.section-1 {
+ 
   width: 100%;
   height: 550px;
   max-height: 100%;
@@ -105,7 +119,9 @@
 .right-box {
   max-width: 440px;
   width: 100%;
-  height: 380px;
+  max-height: 380px;
+  height: 100%;
+  
 
   position: absolute;
 
@@ -221,6 +237,7 @@
   max-width: 1179px;
   width: 90%;
   margin: 0 auto;
+  
 
   display: flex;
   column-gap: 20px;
@@ -254,15 +271,19 @@
 
 .right-block {
   width: 380px;
+  height: auto;
   display: flex;
-  row-gap: 32px;
+  flex-direction: column;
+ row-gap: 23px;
   margin-top: 131px;
+  
 }
-.box {
-  width: 380px;
-  row-gap: 32px;
 
+.box {
+  width: 100%;
+  height: 280px;
   border: 1px solid black;
+  
 }
 .images3 {
   width: 100%;
@@ -308,18 +329,53 @@
   font-size: 16px;
 }
 @media (max-width: 834px) {
+   
+    .header-container {
+      width: 100%;
+    }
+    .ul-nav {
+      margin-left: 297px;
+      
+     
+      
+ 
+  }
+  .travel-news {
+    margin-left: 77px;
+    margin-top: 31px;
+  }
+  .lorem-text {
+   
+    max-width: 630px;
+   width: 100%;
+   
+   
+  }
+
   .section-3 {
     flex-direction: column;
+    width: 97%;
+    margin: 0 auto;
+   
   }
-  .box3 {
-    display: none;
-  }
+
   .left-block {
     width: 100%;
+  }
+  .right-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    column-gap: 20px;
+    width: 100%;
+    
   }
   .box-3 {
     display: none;
   }
+
+
   
   .dv-3 {
     display: none;
@@ -333,12 +389,17 @@
   }
   .lorem-text4 {
     font-size: 14px;
+    
   }
   .lorem-text {
     width: 100%;
     margin: 0 auto;
   }
   .section-1 {
+    flex-direction: column;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+   padding: 127px 85px;
     background-size: cover;
     width: 100%;
     background-image: url(../images/background-image-834px.png);
@@ -346,52 +407,50 @@
 
   .right-box {
     display: none;
+
   }
-  .box {
-    display: flex;
-    flex-direction: row;
-  }
-  .header-container {
-    padding: 16px;
-    justify-content: space-between;
-  }
-  .icon {
-    margin-left: 0;
-  }
-  .travel-day {
-    font-size: 16px;
-    margin-left: 8px;
-    
-  }
-  .user-circke {
-    margin-left: auto;
+ .box{
+  width: 100%;
+  max-width: 340px;
+  
  
- .discovery {
-    font-size: 30px;
-    margin-left: 36px;
-   
 
  }
- .right-block {
+
+  .images3 {
+    width:340px ;
     width: 100%;
-    display: flex;
-    flex-direction: row;
-    gap: 16px;
-    
+  }
+  .box-3 {
+    display: none;
+  }
+
+
+  .icon {
+    margin-left:25px ;
+  }
+
+
+ .discovery {
+   font-size: 30px;
+    margin-left: 36px;
  }
+
 }
 
 @media (max-width: 375px) {
   .box-2 {
     display: none;
   }
+ 
   .section-3 {
     width: 100%;
   }
   .right-block {
-    width: 90%;
-    margin: 0 auto;
-    flex-direction: column;
+    width: 100%;
+   
+   
+   
   }
   .left-block {
     width: 100%;
@@ -413,12 +472,18 @@
     display: none;
   }
   .header-container{
-    flex-wrap: wrap;
-    gap: 10px;
+  max-width: 834px;
+  width: 100%;
     
+    
+  }
+  .travel-day {
+
   }
   .icon {
     width: 24px;
+   
+
   }
   .user-circle {
 width: 20px;
@@ -436,9 +501,7 @@ height: 20px;
     margin-top: 11px;
     margin: 0 auto;
   }
- .right-box {
-    display: none;
- }
+
  .lorem-text {
     width: 100%;
     margin:  0 auto;
@@ -451,6 +514,18 @@ height: 20px;
     margin: 20px 0px;
     text-align: center;
  }
+ .images3 {
+ width: 100%;
+  height: 119px;
+  
+ 
+ }
+
+.box-1 {
+  width:100%;
+
+ 
+}
 
    
 }
