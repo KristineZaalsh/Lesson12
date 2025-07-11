@@ -124,6 +124,28 @@
   background-color: #ffffff;
   margin-left: 871.5px;
 }
+.arrow-box {
+  display: flex;
+  column-gap: 19px;
+  margin-left: 325px;
+}
+.left-arrow {
+  color: #787878;
+  width: 24px;
+  height: 24px;
+  border-radius: 13px;
+}
+.right-arrow {
+  background-color: #fa793c;
+  color: #ffffff;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border-radius: 13px;
+}
 .more-news {
   font-size: 30px;
   font-family: "Kanit", sans-serif;
@@ -205,7 +227,13 @@
 .text-dv {
   max-width: 339px;
   width: 90%;
+  padding: 18px 0 4px 21px;
 }
+.clock-icon {
+  margin-left: 21px;
+  margin-bottom: 15px;
+}
+
 .lorem-descr {
   font-size: 24px;
   color: #000000;
@@ -229,6 +257,7 @@
   max-width: 380px;
   width: 100%;
 }
+
 .section-3 {
   max-width: 1179px;
   width: 90%;
@@ -339,6 +368,10 @@
   width: 24px;
   width: 24px;
 }
+.clock {
+  margin-top: 13px;
+}
+
 .day-text {
   font-family: "Kanit", sans-serif;
   font-weight: 400;
@@ -349,6 +382,9 @@
   font-weight: 500;
   font-style: normal;
   font-size: 24px;
+}
+.width-375 {
+  padding: 18px 0 13px 21px;
 }
 .sit-amet {
   font-family: "Kanit", sans-serif;
@@ -482,6 +518,9 @@
   .text-dv {
     padding: 18px 0 76px 19px;
   }
+  .footer {
+    margin-top: 55px;
+  }
 }
 
 @media (max-width: 375px) {
@@ -556,6 +595,9 @@
   .images3 {
     width: 100%;
     height: 119px;
+  }
+  .dv {
+    height: 388px;
   }
 
   .box-1 {
