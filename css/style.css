@@ -249,7 +249,6 @@
   height: 45px;
   margin-top: 59px;
   position: absolute;
- 
 }
 
 .left-block {
@@ -272,18 +271,17 @@
   position: absolute;
   align-items: center;
   justify-content: center;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-top: 232px;
   margin-left: 36px;
-    max-width: 707px;
+  max-width: 707px;
   width: 100%;
-
-}.happening-now {
+}
+.happening-now {
   font-size: 30px;
-   font-family: "Kanit", sans-serif;
+  font-family: "Kanit", sans-serif;
   font-weight: 500;
   font-style: normal;
-  
 }
 .dolor-text {
   font-size: 16px;
@@ -292,15 +290,14 @@
   font-style: normal;
 }
 .row2-text {
-   position: absolute;
+  position: absolute;
   align-items: center;
   justify-content: center;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-top: 760px;
   margin-left: 36px;
-    max-width: 707px;
+  max-width: 707px;
   width: 100%;
-
 }
 .right-block {
   width: 380px;
@@ -309,7 +306,6 @@
   flex-direction: column;
   row-gap: 23px;
   margin-top: 131px;
-
 }
 
 .box {
@@ -354,7 +350,7 @@
   font-style: normal;
   font-size: 24px;
 }
-.sit-amet{
+.sit-amet {
   font-family: "Kanit", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -410,7 +406,7 @@
   .lorem-text4 {
     font-size: 14px;
   }
- 
+
   .section-1 {
     flex-direction: column;
     flex-direction: column-reverse;
@@ -421,16 +417,11 @@
     background-image: url(../images/background-image-834px.png);
   }
   .right-box {
-    
     margin: 0 auto;
     position: relative;
     display: none;
-    
-    
   }
- 
 
- 
   .box {
     width: 100%;
     max-width: 340px;
@@ -455,14 +446,12 @@
   .row1-text {
     max-width: 636px;
     width: 100%;
-
   }
   .happening-now {
     font-size: 28px;
   }
   .dolor-text {
     font-size: 14px;
-
   }
   .photograph {
     font-size: 30px;
@@ -470,8 +459,6 @@
   }
   .width-375 {
     padding: 17px 0 45px 19px;
-
-    
   }
   .fa-clock {
     margin-top: 12px;
@@ -483,25 +470,18 @@
   }
   .lorem-text {
     max-height: 150px;
-   
+
     line-height: 100%;
     margin-bottom: 141px;
     margin-left: 109px;
-    
-   
   }
   .fa-clock {
-    
     margin-left: 19px;
     margin-bottom: 37px;
-
   }
   .text-dv {
-    padding:18px 0 76px 19px;
-
+    padding: 18px 0 76px 19px;
   }
- 
- 
 }
 
 @media (max-width: 375px) {
@@ -560,7 +540,6 @@
     margin-top: 11px;
     width: 100%;
     margin: 0 auto;
-    
   }
 
   .lorem-text {
@@ -570,11 +549,9 @@
     line-height: 140%;
     margin-top: 95px;
   }
-    
+
   .discovery {
     font-size: 24px;
-    
-   
   }
   .images3 {
     width: 100%;
@@ -583,18 +560,14 @@
 
   .box-1 {
     width: 100%;
-    
   }
 
   .row1-text,
-  .row2-text  {
+  .row2-text {
     font-size: 12px;
-
-    
   }
   .happening-now {
     font-size: 24px;
-    
   }
   .width-375 {
     padding: 18px 0 12px 20px;
@@ -605,14 +578,9 @@
   }
   .sit-amet {
     font-size: 14px;
-
   }
   .photograph {
-   position: relative;
-   font-size: 24px;
-    
-
-
+    position: relative;
+    font-size: 24px;
   }
-
 }
