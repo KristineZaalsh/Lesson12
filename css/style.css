@@ -244,10 +244,14 @@
   font-style: normal;
   font-size: 30px;
   color: #000000;
-  line-height: 100%;
+
   max-width: 192px;
+  height: 45px;
   margin-top: 59px;
+  position: absolute;
+ 
 }
+
 .left-block {
   max-width: 779px;
   width: 100%;
@@ -264,6 +268,40 @@
   position: relative;
 }
 
+.row1-text {
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFFF;
+  margin-top: 232px;
+  margin-left: 36px;
+    max-width: 707px;
+  width: 100%;
+
+}.happening-now {
+  font-size: 30px;
+   font-family: "Kanit", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  
+}
+.dolor-text {
+  font-size: 16px;
+  font-family: "Kanit", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.row2-text {
+   position: absolute;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFFF;
+  margin-top: 760px;
+  margin-left: 36px;
+    max-width: 707px;
+  width: 100%;
+
+}
 .right-block {
   width: 380px;
   height: auto;
@@ -271,6 +309,7 @@
   flex-direction: column;
   row-gap: 23px;
   margin-top: 131px;
+
 }
 
 .box {
@@ -309,13 +348,13 @@
   font-weight: 400;
   font-style: normal;
 }
-.lorem-descr {
+.ipsum-dolor {
   font-family: "Kanit", sans-serif;
   font-weight: 500;
   font-style: normal;
   font-size: 24px;
 }
-.lorem-text4 {
+.sit-amet{
   font-family: "Kanit", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -371,10 +410,7 @@
   .lorem-text4 {
     font-size: 14px;
   }
-  .lorem-text {
-    width: 100%;
-    margin: 0 auto;
-  }
+ 
   .section-1 {
     flex-direction: column;
     flex-direction: column-reverse;
@@ -384,10 +420,17 @@
     width: 100%;
     background-image: url(../images/background-image-834px.png);
   }
-
   .right-box {
+    
+    margin: 0 auto;
+    position: relative;
     display: none;
+    
+    
   }
+ 
+
+ 
   .box {
     width: 100%;
     max-width: 340px;
@@ -409,6 +452,56 @@
     font-size: 30px;
     margin-left: 36px;
   }
+  .row1-text {
+    max-width: 636px;
+    width: 100%;
+
+  }
+  .happening-now {
+    font-size: 28px;
+  }
+  .dolor-text {
+    font-size: 14px;
+
+  }
+  .photograph {
+    font-size: 30px;
+    margin-left: 60px;
+  }
+  .width-375 {
+    padding: 17px 0 45px 19px;
+
+    
+  }
+  .fa-clock {
+    margin-top: 12px;
+  }
+  .travel-news {
+    font-size: 50px;
+    line-height: 100%;
+    width: 100%;
+  }
+  .lorem-text {
+    max-height: 150px;
+   
+    line-height: 100%;
+    margin-bottom: 141px;
+    margin-left: 109px;
+    
+   
+  }
+  .fa-clock {
+    
+    margin-left: 19px;
+    margin-bottom: 37px;
+
+  }
+  .text-dv {
+    padding:18px 0 76px 19px;
+
+  }
+ 
+ 
 }
 
 @media (max-width: 375px) {
@@ -437,6 +530,7 @@
   }
   .burger-bar {
     display: block;
+    margin-left: 9px;
   }
   .ul-nav {
     display: none;
@@ -445,10 +539,10 @@
     max-width: 834px;
     width: 100%;
   }
-  .travel-day {
-  }
+
   .icon {
     width: 24px;
+    margin-left: 59px;
   }
   .user-circle {
     width: 20px;
@@ -464,7 +558,9 @@
   .travel-news {
     font-size: 40px;
     margin-top: 11px;
+    width: 100%;
     margin: 0 auto;
+    
   }
 
   .lorem-text {
@@ -474,10 +570,11 @@
     line-height: 140%;
     margin-top: 95px;
   }
+    
   .discovery {
     font-size: 24px;
-    margin: 20px 0px;
-    text-align: center;
+    
+   
   }
   .images3 {
     width: 100%;
@@ -486,5 +583,36 @@
 
   .box-1 {
     width: 100%;
+    
   }
+
+  .row1-text,
+  .row2-text  {
+    font-size: 12px;
+
+    
+  }
+  .happening-now {
+    font-size: 24px;
+    
+  }
+  .width-375 {
+    padding: 18px 0 12px 20px;
+  }
+  .ipsum-dolor {
+    font-size: 22px;
+    line-height: 100%;
+  }
+  .sit-amet {
+    font-size: 14px;
+
+  }
+  .photograph {
+   position: relative;
+   font-size: 24px;
+    
+
+
+  }
+
 }
